@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Star Nothelfer",
-    "slug": "com.Nothelfer.app",
+    "slug": "06f97cd5-2d29-43a2-bebf-e8cb0abe710c",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.Nothelfer.app",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "958508c5-40d7-406f-9a09-2fb3877ba1a6"
+      }
     }
   }
 }
